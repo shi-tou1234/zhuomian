@@ -1,0 +1,46 @@
+:root {
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f172a;
+  background-color: transparent;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: transparent;
+}
+
+html.desktop-mode {
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.2), transparent 55%),
+    radial-gradient(circle at 80% 15%, rgba(14, 165, 233, 0.18), transparent 50%),
+    radial-gradient(circle at 20% 85%, rgba(16, 185, 129, 0.16), transparent 45%),
+    #f5f7fb;
+}
+
+body.desktop-mode {
+  background: transparent;
+}
+
+#root {
+  background: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
